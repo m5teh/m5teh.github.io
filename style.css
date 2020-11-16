@@ -5,8 +5,7 @@
 }
 html {
     background-color: aquamarine;
-    font-size: 200%;
-    overflow: hidden;
+    font-size: 100%;
 }
 header {
     width: 100%;
@@ -30,6 +29,7 @@ header {
     border-top-right-radius: 10px;
     box-shadow: 5px 0px 0px ;
     border: none;
+    padding: 15px;
 }
 #tab-1 {
     background-color: brown;
@@ -37,7 +37,7 @@ header {
 .show {
     background-color: brown;
     width: 100%;
-    height: 2000px;
+    height: 1000px;
 }
 .show {
     position: relative;
@@ -61,7 +61,7 @@ header {
 }
 .education p {
     font-size: 120%;
-    line-height: 100px;
+    line-height: 30px;
     margin-left: 30px;
     padding-top: 30px;
 }
@@ -71,7 +71,7 @@ header {
 }
 .hobby p {
     font-size: 120%;
-    line-height: 100px;
+    line-height: 30px;
     margin-left: 30px;
     padding-top: 30px;
 }
