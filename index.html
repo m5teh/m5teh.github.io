@@ -1,53 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learn javascript</title>
+    <title>TodoList</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ee129af2d.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.5.1.min.js"></script>
 </head>
-
 <body>
     <header>
-        <h1>My learning page</h1>
+        <h1>My To Do List</h1>
     </header>
-    <section class="nav">
-        <div id = "tab-1" class="tab" onclick="changeColor()">
-            <label class="tab-content">Infomation</label>
-        </div>
-        <div id = "tab-2" class="tab" onclick="changeColor2()">
-            <label class="tab-content">Education</label>
-        </div>
-        <div id = "tab-3" class="tab" onclick="changeColor3()">
-            <label class="tab-content">Hobbies</label>
+    <section>
+        <div class="work-space">
+            <div class="list-task">
+            </div>
+            <div class="add-button">
+                <i class="fas fa-plus-circle add"></i>
+            </div>
+            <input type="text" class="input-text" placeholder="add">
+            
         </div>
     </section>
-    <div class="clearfix"></div>
-    <section class="info">
-        <div class="show">
-            <div id = "cc1" class="infomation">
-                <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/123399415_403082137542178_8399259641166792678_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=-oyJFP9eucgAX-I5ZTT&_nc_ht=scontent-sin6-1.xx&oh=8f0de6bed4dcebf45ff0ed8fa759054d&oe=5FD855AC" alt="avatar">
-                <p>Name : Mai Thế Hùng</p>
-                <p>Date of birth: 15/03/2002</p>
-                <p>Address: Buôn Ma Thuột, Đắk Lắk</p>
-                <p>Phone: 0387475184</p>
-            </div>
-            <div id="cc2" class="education">
-                <p>- Lê Văn Tám Primary School</p>
-                <p>- Phan Chu Trinh Secondary School</p>
-                <p>- Nguyễn Du Hight School for Gifted students</p>
-                <p>- FPT University</p>
-            </div>
-            <div id="cc3" class="hobby">
-                <p>- coding</p>
-                <p>- play games</p>
-                <p>- meditation</p>
-            </div>
-        </div>
-    </section>
-    <script src="/script.js"> </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
