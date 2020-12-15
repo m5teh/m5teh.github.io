@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TodoList</title>
+    <title>Snake Game | HUNG MINE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2ee129af2d.js" crossorigin="anonymous"></script>
-    <script src="jquery-3.5.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <script src="draw.js"></script>
+    <script src="objects.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>My To Do List</h1>
+        <h1>snake xenzia</h1>
     </header>
     <section>
-        <div class="work-space">
-            <div class="list-task">
-            </div>
-            <div class="add-button">
-                <i class="fas fa-plus-circle add"></i>
-            </div>
-            <input type="text" class="input-text" placeholder="add">
-            
+        <div class="intro">
+            <ul>
+                <li>Use arrow key<br> to play</li>
+                <li>Press Space<br> to pause game</li>
+                <li>Gud luck</li>
+            </ul>
+        </div>
+        <canvas id="snake" width="800" height="600" tabindex="1"></canvas>
+        <div id="start">
+            <p>Press Enter to play</p>
+        </div>
+        <div id="end">
+            <p>Game over</p>
+            <p>Press enter to replay</p>
+        </div>
+        <div id="resume">
+            <p>Game Paused.</p>
+            <p>Press "Space" to resume</p>
+        </div>
+        <div class="score_board">
+            <div class="cc">Score: <p id="score">1</p> <div>
+            <div class="cc">Max score: <p id="max_score">1</p></div>
         </div>
     </section>
-    <script src="script.js"></script>
+    <footer>
+        Made by HUNG MINE
+    </footer>
 </body>
+<script src="game.js"></script>
+
 </html>
