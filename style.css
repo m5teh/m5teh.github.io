@@ -1,108 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
 }
-html {
-    font-family: 'Orbitron', sans-serif;
-    background-color: #32ff7e;
-    overflow: hidden;
+
+body {
+          font-family: 'Poppins', sans-serif;
+          background-image: url("./background.png");
+          background-position: unset;
+          background-size: cover;
 }
+
 header {
-    text-align: center;
+          margin-top: 100px;
+          color: white;
+          font-size: 150%;
+          font-weight: 600;
 }
 h1 {
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: 1000;
-    font-size: 300%;
-    color: #ff9f1a;
+          /* text-align: center; */
+          margin-left: 35%;
 }
-section {
-    position: relative;
-    text-align: center;
+.game {
+          position: relative;
+          margin: 0 auto;
+          /* margin-top: 50px; */
+          background-color: white;
+          width: 450px;
+          text-align: center;
+          padding: 50px 0px;
+          border-radius: 16px;
+          transition: all .5s;
 }
-#start {
-    display: inline-block;
-    width: 800px;
-    height: 600px;
-    position: absolute;
-    z-index: 1;
-    top: 5px;
-    left: 24%;
-    background-color: #67e6dc;
+.game img {
+          position: absolute;
+          top: -90px;
+          right: 0;
+          width: 150px;
 }
-#start p:first-child {
-    margin-top: 280px;
+.question {
+          display: inline-block;
+          width: 80%;
+          font-size: 120%;
+          color: #2f527b;
+          text-align: left;
 }
-#end {
-    display: none;
-    width: 800px;
-    height: 600px;
-    position: absolute;
-    z-index: 1;
-    top: 5px;
-    left: 24%;
-    background-color: #67e6dc;
+.game ul {
+          width: 80%;
+          display: inline-block;
 }
-#end p:first-child {
-    margin-top: 250px;
+.game ul li {
+          list-style: none;
+          color: #6066d0;
+          text-align: left;
+          padding: 15px 15px;
+          border: solid 2px #6066d0;
+          margin-bottom: 10px;
+          cursor: pointer;
+          border-radius: 16px;
+          transition: all .5s;
+          overflow-x: hidden;
 }
-#resume {
-    display: none;
-    width: 800px;
-    height: 600px;
-    position: absolute;
-    z-index: 1;
-    top: 5px;
-    left: 24%;
-    background-color:#ffb8b8;
+.yl:hover {
+          background-color: #F9A826;
+          border: solid 2px #F9A826;
 }
-#resume p:first-child {
-    margin-top: 250px;
+.answer {
+          margin-left: 30px;
+          display: inline-block;
 }
-#score, #max_score {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    font-size: 150%;
-    color: #ff3838;
+.btn {
+          text-decoration: none;
 }
-.score_board {
-    position: absolute;
-    text-align: left;
-    padding: 50px;
-    background-color: #fff200;
-    z-index: 1;
-    top: 5px;
-    width: 300px;
-    left: 78%;
-    border: #4b4b4b solid 10px;
-    border-radius: 30px;
+.btny {
+          margin-top: 20px;
+          display: inline-block;
+          background-color: #F9A826;
+          color: white;
+          padding: 10px 30px;
+          border-radius: 5px;
 }
-.cc {
-    padding: 20px 0;
+.btny:hover {
+          transform: scale(1.2);
 }
-.intro {
-    padding: 50px;
-    height: 300px;
-    color: white;
-    background-color: black;
-    position: absolute;
-    left: 2%;
-    border: #fffa65 solid 5px;
-    border-radius: 15px;
+.end {
+          /* position: relative; */
+          margin: 0 auto;
+          /* margin-top: 50px; */
+          background-color: white;
+          width: 450px;
+          text-align: center;
+          padding: 50px 0px;
+          border-radius: 16px;    
 }
-.intro ul li {
-    margin-bottom: 20px;
+.end h2 {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 200%;
 }
-canvas {
-    border: 5px solid #ff9f1a;
-    background-color: #3d3d3d;
-    outline: none;
+#score {
+          color: green;
+          font-size: 300%;
 }
-footer {
-    font-size: 75%;
-    margin-top: 1px;
-    text-align: center;
+
+.btnw {
+          display: inline-block;
+          margin-top: 10px;
+          color: #2f527b;
+          padding: 10px 30px;
+          border: solid #2f527b 2px;
+          border-radius: 10px;
+          transition: all .5s;
+}
+.btnw:hover {
+          background-color: #2f527b;
+          color: white;
+}
+
+footer  {
+          position: fixed;
+          bottom: 0;
+          left: 43%;
+}
+
+.r {
+          background-color: #60BF88;
+          border: solid 2px #60BF88 !important;     
+}
+.wr {
+          background-color: #EA8282;
+          border: solid 2px #EA8282 !important;          
 }
