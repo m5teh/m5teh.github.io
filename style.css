@@ -1,134 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
           margin: 0;
           padding: 0;
           box-sizing: border-box;
 }
 
 body {
-          font-family: 'Poppins', sans-serif;
-          background-image: url("./background.png");
-          background-position: unset;
-          background-size: cover;
-}
-
-header {
-          margin-top: 100px;
-          color: white;
-          font-size: 150%;
-          font-weight: 600;
-}
-h1 {
-          /* text-align: center; */
-          margin-left: 35%;
-}
-.game {
           position: relative;
-          margin: 0 auto;
-          /* margin-top: 50px; */
-          background-color: white;
-          width: 450px;
+          background-image: url("./img/817016.png");
+          background-size: cover;
+          background-blend-mode: overlay;
+          background-color: #0f4c75;
+          font-family: 'Exo 2', sans-serif;
+          color: #bbe1fa;
+          padding-left: 50px;
+          padding-right: 50px;
+}
+.logo {
           text-align: center;
-          padding: 50px 0px;
-          border-radius: 16px;
-          transition: all .5s;
-}
-.game img {
-          position: absolute;
-          top: -90px;
-          right: 0;
-          width: 150px;
-}
-.question {
-          display: inline-block;
-          width: 80%;
-          font-size: 120%;
-          color: #2f527b;
-          text-align: left;
-}
-.game ul {
-          width: 80%;
-          display: inline-block;
-}
-.game ul li {
-          list-style: none;
-          color: #6066d0;
-          text-align: left;
-          padding: 15px 15px;
-          border: solid 2px #6066d0;
-          margin-bottom: 10px;
-          cursor: pointer;
-          border-radius: 16px;
-          transition: all .5s;
-          overflow-x: hidden;
-}
-.yl:hover {
-          background-color: #F9A826;
-          border: solid 2px #F9A826;
-}
-.answer {
-          margin-left: 30px;
-          display: inline-block;
-}
-.btn {
-          text-decoration: none;
-}
-.btny {
           margin-top: 20px;
-          display: inline-block;
-          background-color: #F9A826;
-          color: white;
-          padding: 10px 30px;
-          border-radius: 5px;
 }
-.btny:hover {
-          transform: scale(1.2);
+.logo img {
+          width: 300px;
 }
-.end {
-          /* position: relative; */
-          margin: 0 auto;
-          /* margin-top: 50px; */
-          background-color: white;
-          width: 450px;
+section {
           text-align: center;
-          padding: 50px 0px;
-          border-radius: 16px;    
-}
-.end h2 {
+          background-color: #1b262c;
           margin-top: 10px;
-          margin-bottom: 10px;
-          font-size: 200%;
+          border: 5px solid #3282b8;
+          padding-top: 10px;
+          padding-right: 10px;
 }
-#score {
-          color: green;
+.patch {
+          text-align: right;
+          margin-right: 70px;
+          margin-bottom: 10px;
           font-size: 300%;
 }
-
-.btnw {
-          display: inline-block;
-          margin-top: 10px;
-          color: #2f527b;
-          padding: 10px 30px;
-          border: solid #2f527b 2px;
-          border-radius: 10px;
-          transition: all .5s;
+.icon {
+          max-width: 50px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+          cursor: pointer;
 }
-.btnw:hover {
-          background-color: #2f527b;
-          color: white;
-}
-
-footer  {
-          position: fixed;
-          bottom: 0;
-          left: 43%;
+.exit  {
+          position: absolute;
+          right: 5px;
+          font-size: 300%;
+          cursor: pointer;
+          color: red;
+          z-index: 10;
 }
 
-.r {
-          background-color: #60BF88;
-          border: solid 2px #60BF88 !important;     
+.one {
+          position: absolute;
+          top: -20px;
+          left: 0;
+          width: 100%;
+          height: 100vh;
+          background-color: #1b262c;
+          background-blend-mode: overlay;
+          background-size: cover;
+          padding: 20px;
+          overflow-y: auto;
 }
-.wr {
-          background-color: #EA8282;
-          border: solid 2px #EA8282 !important;          
+h1 {
+          color: #3282b8;
+          margin-bottom: 30px;
+          font-size: 300%;
+}
+h2 {
+          margin-bottom: 10px;
+}
+.lore {
+          margin-bottom: 50px;
+          font-style: italic;
+}
+.sp {
+          width: 40px;
+          /* margin-bottom: 10px; */
+}
+.spells div {
+          margin-bottom: 50px;
 }
