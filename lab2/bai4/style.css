@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1c7947;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+h1 {
+  color: #fffd95;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 400%;
+}
+h2 {
+  color: #2c2891;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+form {
+  background-color: #39a388;
+  display: inline-block;
+  width: 500px;
+}
+input[type="text"] {
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 50%;
+}
+input[type="button"] {
+  cursor: pointer;
+  font-size: 130%;
+  border: none;
+  background-color: #fffd95;
+  margin-bottom: 30px;
+  padding: 8px;
+  width: 100px;
+}
+label {
+  font-size: 90%;
+  color: #2c2891;
+}
+input[type="radio"] {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+fieldset {
+  color: #2c2891;
+  text-align: left;
+  width: 55%;
+  margin-left: 22%;
+  margin-bottom: 15px;
+}
+fieldset input {
+  margin-bottom: 10px;
+}
+fieldset legend {
+  font-size: 110%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#link {
+  margin-top: 30px;
+}
+a {
+  font-size: 120%;
+  text-decoration: none;
+  color: #2c2891;
+}
+input[type="button"]:hover {
+  background-color: #1c7947;
+}
