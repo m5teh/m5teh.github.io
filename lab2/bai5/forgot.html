@@ -2,24 +2,126 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Quên mật khẩu</title>
-     <link rel="stylesheet" href="style.css">
+     <title>Library</title>
+     <style type="text/css">
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+         
+     	.header{
+     		display: flex;
+     		flex-wrap: nowrap;
+     		background-color: #DBD0C0;
+     	}
+     	.header h1{
+     		flex: 90%;
+     		text-align: center;
+     		margin-top: 30px;
+     		font-size: 220%;
+     	}
+     	.nav-bar {
+     		display: flex;
+               background-color:#EEEEEE;
+               
+     	}
+         .other-nav-items {
+              text-align: left;
+              flex-basis: 70%;
+         }
+         .login-nav-item {
+              text-align: right;
+              flex-basis: 30%;
+         }
+
+     	.nav-bar .button {
+               display: inline-block;
+               text-decoration: none;
+     		padding: 10px;
+     	}
+          .header2 {
+               background-color: #F9CF93;
+               /* font-size: 13px; */
+          }
+          .header3 {
+               margin-top: 13px;
+               background-color: #8CA1A5;
+               /* font-size: 13px; */
+          }
+          .header4 {
+               margin-top: 13px;
+               background-color: #FEA82F;
+               /* font-size: 13px; */
+          }
+          .header5 {
+               /* font-size: 10px; */
+          }
+          .dev {
+               text-align: center;
+          }
+          footer {
+               margin-top: 150px;
+          }
+     </style>
 </head>
 <body>
      <div class="header">
-          <a class="logo" href="./login.html"><img src="./logo_v_small.png" alt="logo"></a>
+          <a class="logo" href="./homepage.html"><img src="./logo.jpg" width="90px" alt="logo"></a>
+          <h1>Thư viện đại học SGU</h1>
      </div>
-     <div class="form">
-          <h2>Quên mật khẩu</h2>
-          <form action="">
-               <input type="text" name="username" id="username" placeholder="tên đăng nhập"><br>
-               <input type="text" name="email" id="email" placeholder="email"><br>
-               <input type="text" name="question" id="question" placeholder="câu hỏi bí mật"><br>
-               <a href="" class="button">Gửi link đặt lại mật khẩu</a>
-
-          </form>
+     <div class="nav-bar">
+               <div class="other-nav-items">
+               <a class="button" href="./homepage.html">Trang chủ</a>
+               <a class="button" href="#">Tin tức</a>
+               <a class="button" href="#">Lịch làm việc</a>
+              	<a class="button" href="#">Thông tin</a>
+               <a class="button" href="./classify.html">Tìm kiếm</a>
+               </div>
+               <div class="login-nav-item">
+               <a class="button" href="./login.html">Đăng nhập</a>
+               <a class="button" href="./signup.html">Đăng ký</a>
+               </div>
+          
      </div>
+     <br>
+     <div class="header2">
+          <marquee width="100%" behavior="alternate" scrolldelay="10"> 
+               *Thư viện sẽ đóng cửa vào ngày nghỉ lễ 20/11 sắp tới
+          </marquee>
+     </div>
+     <div class="header3">
+          <marquee width="100%" behavior="slide">
+               <p>*Danh sách các tác phẩm mới</p>
+               <blockquote>
+                    <p>- How Psychology Works - Hiểu Hết Về Tâm Lý Học (Tác giả: Jo Hemmings)</p>
+                    <p>- Kỷ Luật Tự Giác (Tác giả: Tiểu Dã)</p>
+                    <p>- Sách Đen - Bộ Công Cụ Của Phụ Nữ Thành Đạt (Tác giả: Otegha Uwagba)</p>
+                    <p>- Thiết Kế Cuộc Đời Thịnh Vượng - Design a Prosperous Life (Tác giả: Thái Phạm)</p>
+                    <p class="button">Xem thêm: &nbsp;<a href="./classify.html">Các loại sách</a></p>
+               </blockquote>
+          </marquee>
+     </div>
+     <div class="header4">
+          <marquee width="100%" behavior="slide" direction="up"> 
+               <p>*Trích dẫn</p>
+               <blockquote>
+               <p>- Cuộc sống không phải là cuộc chiến tranh với những người khác, mà là cuộc chạy đua trường kỳ với chính bản thân mình (Bước chậm lại giữa thế gian vội vã)</p>
+               <p>- Không nên mất thời gian để hối tiếc quá khứ một cách vô ích hoặc than phiền về những thay đổi khiến ta khó chịu, vì thay đổi là tất yếu của cuộc sống. (Bạn chỉ sống có một lần)</p>
+               <p>- Có rất nhiều việc tựa như gió thoảng mây bay. Chỉ cần trân trọng những gì mình đang có, chúng ta mới không phải nuối tiếc trong cuộc sống. (Đừng lựa chọn an nhàn khi còn trẻ)</p>
+               <p>- Hãy tự đưa ra lựa chọn của mình, cuộc sống chính là thế, đi một bước sai một bước, nhưng đi thêm bước nữa sẽ lại đúng thôi, chỉ cần bạn vui là được. (Xin lỗi, tôi cũng lần đầu làm người lớn)</p>
+               <p>- Phản kháng nhất thời chẳng có gì mạnh mẽ, người đối mặt với sự gặm nhấm từng chút một của hiện thực cuộc sống mà vẫn giữ được mình nguyên vẹn mới là dũng sĩ thật sự. (Rạp chiếu phim cuộc đời)</p>
+               <p>- Cuộc sống ngắn ngủi, hãy luôn tận hưởng và làm điều mình thích. Sống cho bản thân mình mới là sống – Sống bằng ánh nhìn của người khác thì khác nào sống mà như đã chết? (Sẽ có cách, đừng lo)</p>
+               <p>- Lúc này đây cuộc sống của bạn có thể diễn ra không được êm ả, nhưng miễn là bạn vẫn còn sống, vẫn tiếp tục hướng lên phía trước, thì bất cứ điều gì cũng trở thành có thể. Hãy luôn hy vọng bạn nhé! (Sống cho điều ý nghĩa hơn)</p>
+               <p>- Cho dù cuộc sống có hàng nghìn lý do khiến bạn khóc, bạn cũng phải tìm cho mình một lý do để cười, bởi lẽ đó chính là cuộc đời, những gì chúng ta có thể làm chỉ là khiến bản thân mạnh mẽ hơn thôi. (999 lá thư gửi cho chính mình)</p>
+          </blockquote>
+          </marquee>
+     </div>
+     <footer>
+          <p>123/3 đường Lê Lợi, phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+          <p>SDT: 09xx3423x1</p>
+          <p>Email: ĐHSGU@gmail.com.vn </p>
+          <p class="dev">Trang web dược thiết kế bởi hoàng tòi</p>
+     </footer>
 </body>
 </html>
